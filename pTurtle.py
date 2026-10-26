@@ -1,0 +1,18 @@
+import turtle as t
+t.clearscreen()
+t.bgcolor('black')
+t.speed(13)
+t.penup()
+t.goto(-10,20)
+t.pendown()
+for i in range(349):
+    t.color('blue')
+    t.forward(i%349)
+    t.right(86)
+    t.color('red')
+    t.forward(i)
+    t.right(110)
+    t.color('green')
+    t.backward(80)
+    t.left(78)
+t.hideturtle()
